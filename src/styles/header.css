@@ -1,0 +1,67 @@
+ .header {
+     padding: 50px 0px;
+     background-color: #222429;
+     height: 100%;
+     left: 0;
+     position: fixed;
+     top: 0;
+     width: 250px;
+     z-index: 333;
+ }
+
+ .header_wrapper {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     gap: 50px;
+ }
+
+ .header_wrapper h1 {
+     font-size: 8rem;
+     font-weight: 700;
+     line-height: 1em;
+     opacity: 0.8;
+ }
+
+ .header_wrapper ul {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     
+ }
+ .header_wrapper ul a li:hover{
+    opacity: 1;
+ }
+
+ .header_wrapper ul a li {
+     font-weight: 600;
+     text-transform: capitalize;
+     font-size: 15px;
+     color: #fff;
+     opacity: 0.8;
+ }
+
+ .header_bottom {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
+ .header_bottom h3,p,a{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    opacity: 0.8;
+ }
+ .header_bottom a:hover{
+    opacity: 1;
+
+ }
+ .active_link li{
+    opacity: 1 !important;
+ }

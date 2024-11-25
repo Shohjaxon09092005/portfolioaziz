@@ -1,0 +1,18 @@
+.happy_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.happy h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 65px;
+    letter-spacing: -.5px;
+    margin-bottom: 30px;  
+}
+.our_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}

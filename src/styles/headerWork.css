@@ -1,0 +1,41 @@
+.header_work{
+    margin-bottom: 60px;
+}
+.header_work span {
+    color: #fff;
+    background: #222429;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 5px 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.header_work h2 {
+    font-size: 40px;
+    line-height: 3rem;
+    letter-spacing: -.5px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.header_work ul {
+    display: flex;
+}
+
+.header_work ul a li {
+    border: medium none;
+    color: #b1b1b1;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    background: none;
+    padding-right: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.header_work .active_link {
+    color: #FFFFFF;
+    text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FFFFFF, 0 0 50px #FFFFFF;
+}

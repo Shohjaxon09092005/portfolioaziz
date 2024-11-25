@@ -1,0 +1,10 @@
+.MyWorks{
+    margin-left: 250px;
+    margin-top: 80px;
+    color: white;
+}
+.work_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

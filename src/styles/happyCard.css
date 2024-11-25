@@ -1,0 +1,37 @@
+.happy_card {
+    padding: 30px;
+    padding-top: 35px;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+    background: #222429;
+    width: 30%;
+    text-align: center !important;
+
+}
+.happy_card h3{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.happy_card .cardDiv{
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-top: 6px;
+    transition: 0.3s;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    background-color: black;
+}
+
+.happy_card p{
+    font-size: 15px;
+    color: #b1b1b1;
+    display: inline-block;
+    font-weight: 500;
+}

@@ -1,0 +1,21 @@
+.work__card{
+    width: 48%;
+    margin-bottom:40px;
+}
+.work__card img{
+    width: 100%;
+    height: fit-content;
+}
+.work__card h2{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+.work__card p{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #b1b1b1;
+}
